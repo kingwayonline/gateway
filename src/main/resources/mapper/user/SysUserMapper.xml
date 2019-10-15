@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgak.mapper.user.SysUserMapper">
+  <resultMap id="BaseResultMap" type="com.lgak.bean.user.SysUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="login_name" jdbcType="VARCHAR" property="loginName" />
+    <result column="telephone" jdbcType="INTEGER" property="telephone" />
+    <result column="mail" jdbcType="VARCHAR" property="mail" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="dept_id" jdbcType="INTEGER" property="deptId" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="operate_time" jdbcType="TIMESTAMP" property="operateTime" />
+    <result column="operate_ip" jdbcType="VARCHAR" property="operateIp" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="integrals" jdbcType="INTEGER" property="integrals" />
+  </resultMap>
+</mapper>

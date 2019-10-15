@@ -1,0 +1,21 @@
+server:
+  port: 6001
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.13.81.68:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+  application:
+    name: gateway
+  redis:
+    redisson:
+      config: classpath:redisson.yaml
+
+
+ahas.namespace: default
+project.name: gateway
+ahas.license: 8f31af8dc3204714b62916c5301e1f9e
